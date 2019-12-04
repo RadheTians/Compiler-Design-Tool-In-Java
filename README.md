@@ -139,13 +139,24 @@ The implemented tool has following features...
 
 # How to Use
 
-1. Use the Admin Panel to set up quiz questions. Quiz won't be enabled unless you click the "Start Test" button. Click on the same to start an added quiz.
+This tool has nine buttons, one input field and one output field and their working precedure is following...
 
-2. Scores are updated realtime on the server, however the result will be shown only when the user finishes the quiz, or there is a time out or the admin ends the quiz by clicking on "is_staff" attribute of Normal User.
+1. Provide the path of input file(File can be C/C++, Python, Java, etc...) in input text field which is at the left and press Lexical button after doing this, tool will be tokenized the given input file.
 
-3. Once the admin clicks on the individual user "is_staff" attribute, the quiz ends for that particular user taking that quiz. 
+2. Provide the grammar in input text field which has left recursion and press LR button after doing this, tool will be removed left recursion from given grammar.
 
-4. Once the quiz is disabled for that particular user, the quiz becomes inaccessible for that user. If the quiz is enabled again for that particular user by Admin then, user will be able to start quiz.
+3. Provide the string for fixed grammar and press Recursive Descent button after doing this, recursive descent parser will be parsed the string and tell the status of given string(i.e Accept or Reject) and the grammar is following...
+
+		1.) E--> E + T
+		2.) E--> T
+		3.) T--> T * F
+		4.) T--> F
+		5.) F--> (E)
+		6.) F--> a
+
+		The string will be something like a+a$, a+a*a$, a+(a+a*a) and so on...	
+
+4. Provide the grammar in input text field which has left factoring and press LR button after doing this tool will be removed left factoring from given grammar.
 
 5. All the questions in quiz exam will come with individual time depands upon difficulty of question(i.e 20sec, 40sec, 600sec, etc).
 
