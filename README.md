@@ -135,7 +135,7 @@ The implemented tool has following features...
 
 2. Import the project directory on eclipse IDE
 
-3. And click on run button.
+3. And run window.java file from src/doc directory.
 
 # How to Use
 
