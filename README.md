@@ -62,15 +62,27 @@ The implemented tool has following features...
  
 ### Environment:
   
-   Source code to this project is coded in JAVA, with its GUI running in Swing Designer and WindowBuilder.
+   Source code to this project is coded in JAVA, with its GUI running in Swing-Designer and WindowBuilder.
  
  
 ### Packages:
 
-   JDK 11.0.4, JRE, Swing, WindowBuilder.
+   JDK 11.0.4, JRE, Swing-Designer, WindowBuilder.
 
  
-## INSTALLATION 
+# INSTALLATION 
+
+## JDR for Ubuntu
+
+	$ sudo apt-get update && apt-get upgrade
+	$ sudo apt-get install default-jdk
+	$ java --version
+
+## JDR for Windown
+
+   Download [JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html) .exe file go to jdk install directory double click on .exe file and follow the instructions. 
+
+## Eclipse IDE
  
    Download [eclipse](https://www.eclipse.org/downloads/) IDE .exe file for Window or .tar.gz file for Ubuntu
    
@@ -78,86 +90,52 @@ The implemented tool has following features...
 
    Just double click on the .exe file and follow the instruction.
 
-### for Ununtu
+### For Ununtu
 
 	$ tar xvf eclipse-inst-linux64.tar.gz
 	$ cd eclipse-installer/
 	$ chmod 777 eclipse-inst
 	$ ./eclipse-inst
  
-### Packages :  
+## Packages 
 
-	$ pip install virtualenv
-   	$ pip install subprocess
-   	$ pip install os 
+1. Open the eclipse IDE
 
+2. Go to help section and select Install New Softwares..
+
+3. select *year-http://download.eclipse.org/releases/2019-03 from add tag
+
+4. Go to General Purpose Tools
+
+5. And Install following packages...
+		
+		1.) Swing Designer
+		2.) Swing Designer Documentation
+		3.) SWT Designer
+		4.) SWT Designer Core
+		5.) SWT Designer Documentation
+		6.) SWT Designer SWT_AWTSupport
+		7.) SWT Designer XWTSupport(requires Eclipse WTP/WST)
+		8.) WindowBuilder Core
+		9.) WindowBuilder Core Documentation
+		10.) WindowBuilder Core UI
+		11.) WindowBuilder Java Core
+		12.) WindowBuilder XML Core(requires Eclipse WTP/WST)
+		13.) 
+
+
+# Clone repository :
+
+	$ git clone https://github.com/RadheTians/Compiler-Design-Tool-In-Java.git
+	$ cd MCQ-System-System
+
+# Running locally :
  
-### Python3 env :
+1. Open the eclipse IDE.
 
-   	$ pip install python3.7 python-pip
+2. Import the project directory on eclipse IDE
 
-
-### Setting up Django framework for Python3 :
-
-   	$ pip install Django
-
-
-   Installing Django from https://docs.djangoproject.com/en/2.2/intro/install/
-
-## Postgres Install :
-
-### Install PostgreSQL on Ubuntu :
-
-	$ sudo apt-get update
-	$ sudo apt-get install postgresql postgresql-contrib
-
-To connect with PostgreSQL.
-	
-	$ sudo su - postgres
-	$ psql
-	$ postgres-# \conninfo
-
-And create database name called "exam"
-
-	$ postgres-# create database exam
-	$ \l
-
-
-### Install PostgreSQL on Window :
-
-	To insatll on Window go throught this [postgres](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).
-
-### Install PostgreSQL connect to Python :
-	
-	$ pip install psycopg2
-
-### Clone repository :
-
-	https://github.com/RadheTians/MCQ-Quiz-System.git
-	cd MCQ-System-System
-
-### Migrations :
-
-To run migrations.
-
-	$ python manage.py makemigrations
-	$ python manage.py migrate
-
-### Create superuser :
-
-To create super user run.
-
-	$ python manage.py createsuperuser
-
-After running this command it will ask for username, password. You can access admin panel from (localhost:8000/admin/)
-
-## Running locally :
- 
-To run at localhost. It will run on port 8000 by default.
-
-	$ python manage.py runserver
-
-To access this project go to any browser and type in url (localhost:8000)
+3. And click on run button.
 
 # How to Use
 
