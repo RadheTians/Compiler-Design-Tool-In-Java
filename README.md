@@ -1,6 +1,6 @@
 # Compiler-Design-Tool-In-Java
 		
-	This is the Tool which can implement the phages of Compiler-Design which is developed in Java programming lanuage.
+This is the Tool which can implement the phages of Compiler-Design which is developed in Java programming lanuage.
 
 
 # About
@@ -8,11 +8,11 @@
 This is the tool which can calculate First, Follow and FirstAndFollow of given grammar, perform string validation of Recursive Descent parser, remove left recursion & left factoring from grammar, SLR string validation for fixed grammar,implementation of conanical collection of LR(0) items and SLR tabel, tokenized the given input file which can be in C/C++, JAVA, PYTHON and so on... 
 
 <p align="center">
-  <img src="Snapshot/111001.png">
+  <img src="Screenshot/111001.png">
 </p>
 
 <p align="center">
-  <img src="Snapshot/111002.png">
+  <img src="Screenshot/111002.png">
 </p>
 
 # Add Features
