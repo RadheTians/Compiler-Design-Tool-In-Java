@@ -1,6 +1,6 @@
 # Compiler-Design-Tool-In-Java
 		
-This is the Tool which can implement the phages of Compiler-Design which is developed in Java programming lanuage.
+This is the Tool which can implement the phages of Compiler-Design which has been developed in Java programming lanuage.
 
 
 # About
@@ -17,19 +17,41 @@ This is the tool which can calculate First, Follow and FirstAndFollow of given g
 
 # Add Features
 
-1. Added the feature that Admin can stop any user at any time during the eaxm period.
+The implemented tool has following features...
 
-2. Added Timer support for each inividual question.
+1. Added the feature that lexical analysis phage of compiler in which just need to provide the path of input file(file can be C/C++, JAVA, PYTHON, etc...) and this tool will be tokenized each in line of given input file.
+
+2. Added the feature of removable of left recursion for the given input grammar.
  
-3. Added control to "Enable" and "Disable" the quiz on the Admin panel by Global Clock.
+3. Added the feature of removable of left factoring for the given input grammar.
 
-4. Added control to navigate among all the questions of quiz (during the quiz) and finish the quiz whenever the user wants.
+4. Added the feature of string validation of Recursive Descent parser for the following fixed grammar...
+		
+		1.) E--> E + T
+		2.) E--> T
+		3.) T--> T * F
+		4.) T--> F
+		5.) F--> (E)
+		6.) F--> a
 
-5. Added control so that user can start the quiz at any time and continue the quiz even if some error or session timeout occurs.
+		The string will be something like a+a$, a+a*a$, a+(a+a*a) and so on...	
+		
 
-6. Added control to store the answers to question and show a detailed analysis of the quiz results.
+5. Added the feature of calculation of first for the given input grammar.
 
-7. Improved GUI of the quiz panel.
+6. Added the feature of calculation of follow for the given input grammar.
+
+7. Added the feature of calculation of firstAndFollow simultaneously for the given input grammar.
+
+8. Added the feature of string validation of SLR parser for the following fixed grammar...
+
+		1.) E--> a E a
+		2.) E--> b E b
+		3.) E--> c
+		
+		The string wiil be something like c, aca,aabbcbbaa, bacab and so on...
+
+9. Added the feature of Canonical collection of LR(0) items and Tabel of SLR parser for the given grammar.
 
 # How to Use
 
