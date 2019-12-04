@@ -53,46 +53,37 @@ The implemented tool has following features...
 
 9. Added the feature of Canonical collection of LR(0) items and Tabel of SLR parser for the given grammar.
 
-# How to Use
-
-1. Use the Admin Panel to set up quiz questions. Quiz won't be enabled unless you click the "Start Test" button. Click on the same to start an added quiz.
-
-2. Scores are updated realtime on the server, however the result will be shown only when the user finishes the quiz, or there is a time out or the admin ends the quiz by clicking on "is_staff" attribute of Normal User.
-
-3. Once the admin clicks on the individual user "is_staff" attribute, the quiz ends for that particular user taking that quiz. 
-
-4. Once the quiz is disabled for that particular user, the quiz becomes inaccessible for that user. If the quiz is enabled again for that particular user by Admin then, user will be able to start quiz.
-
-5. All the questions in quiz exam will come with individual time depands upon difficulty of question(i.e 20sec, 40sec, 600sec, etc).
-
-6. User can skill questions during quiz exam period.
-
-7. There is one text field where user can go to any question from any question to some any question.
 
 ## USAGE
    
-   Python3, Django, Postgresql, psycopg2.
+   JAVA, Openjdk 11.0.4, Eclipse IDE, JAVA Swing, WindowBuilder.
    
 ## REQUIREMENT
  
 ### Environment:
   
-   Source code to this project is coded in Python3, with its GUI running in Django framework.
+   Source code to this project is coded in JAVA, with its GUI running in Swing Designer and WindowBuilder.
  
  
 ### Packages:
 
-   pip3, os, postgres, psycopg2.
+   JDK 11.0.4, JRE, Swing, WindowBuilder.
 
-
-### Command Line Interface(CLI):
-  
-   Terminal.
- 
  
 ## INSTALLATION 
  
-   Use the package manager [pip](https://pip.pypa.io/en/stable/) to install packages subprocess, os and set env for Python3.
+   Download [eclipse](https://www.eclipse.org/downloads/) IDE .exe file for Window or .tar.gz file for Ubuntu
+   
+### For Window
+
+   Just double click on the .exe file and follow the instruction.
+
+### for Ununtu
+
+	$ tar xvf eclipse-inst-linux64.tar.gz
+	$ cd eclipse-installer/
+	$ chmod 777 eclipse-inst
+	$ ./eclipse-inst
  
 ### Packages :  
 
@@ -168,30 +159,45 @@ To run at localhost. It will run on port 8000 by default.
 
 To access this project go to any browser and type in url (localhost:8000)
 
+# How to Use
+
+1. Use the Admin Panel to set up quiz questions. Quiz won't be enabled unless you click the "Start Test" button. Click on the same to start an added quiz.
+
+2. Scores are updated realtime on the server, however the result will be shown only when the user finishes the quiz, or there is a time out or the admin ends the quiz by clicking on "is_staff" attribute of Normal User.
+
+3. Once the admin clicks on the individual user "is_staff" attribute, the quiz ends for that particular user taking that quiz. 
+
+4. Once the quiz is disabled for that particular user, the quiz becomes inaccessible for that user. If the quiz is enabled again for that particular user by Admin then, user will be able to start quiz.
+
+5. All the questions in quiz exam will come with individual time depands upon difficulty of question(i.e 20sec, 40sec, 600sec, etc).
+
+6. User can skill questions during quiz exam period.
+
+7. There is one text field where user can go to any question from any question to some any question.
+
+
 <p align="center">
-  <img src="Snapshot/112.png">
+  <img src="Screenshot/111003.png">
 </p>
 
 <p align="center">
-  <img src="Snapshot/113.png">
+  <img src="Screenshot/111004.png">
 </p>
 
 <p align="center">
-  <img src="Snapshot/114.png">
+  <img src="Screenshot/111005.png">
 </p>
 
 <p align="center">
-  <img src="Snapshot/116.png">
+  <img src="Screenshot/111006.png">
 </p>
 
 <p align="center">
-  <img src="Snapshot/117.png">
+  <img src="Screenshot/111007.png">
 </p>
 
 <p align="center">
-  <img src="Snapshot/118.png">
+  <img src="Screenshot/111008.png">
 </p>
 
-<p align="center">
-  <img src="Snapshot/119.png">
-</p>
+
