@@ -121,7 +121,7 @@ The implemented tool has following features...
 		10.) WindowBuilder Core UI
 		11.) WindowBuilder Java Core
 		12.) WindowBuilder XML Core(requires Eclipse WTP/WST)
-		13.) 
+		
 
 
 # Clone repository :
@@ -158,12 +158,21 @@ This tool has nine buttons, one input field and one output field and their worki
 
 4. Provide the grammar in input text field which has left factoring and press LR button after doing this tool will be removed left factoring from given grammar.
 
-5. All the questions in quiz exam will come with individual time depands upon difficulty of question(i.e 20sec, 40sec, 600sec, etc).
+5. Provide the grammar in input text field and press First button after doing this, tool will be calculated first of the given grammar.
 
-6. User can skill questions during quiz exam period.
+6. Provide the grammar in input text field and press Follow button after doing this, tool will be calculated follow of the given grammar.
 
-7. There is one text field where user can go to any question from any question to some any question.
+7. Provide the grammar in input text field and press FirstAndFollow button after doing this, tool will be calculated first and follow of the given grammar.
 
+8. Provide the string for fixed grammar and press SLR button after doing this, SLR parser will be parsed the string and tell the status of given string(i.e Accept or Reject) and the grammar is following...
+
+		1.) E--> a E a
+		2.) E--> b E b
+		3.) E--> c
+		
+		The string wiil be something like c, aca,aabbcbbaa, bacab and so on...
+
+9. Provide the grammar in input text field and press SLR Canonical button after doing this, tool will be calculated canonical collection of LR(0) items and construct SLR table.
 
 <p align="center">
   <img src="Screenshot/111003.png">
