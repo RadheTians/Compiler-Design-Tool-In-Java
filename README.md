@@ -1,4 +1,4 @@
-# Compiler-Design-Tool-In-Java
+# Compiler Design Tool In Java
 		
 This is the Tool which can implement the phages of Compiler-Design which has been developed in Java programming lanuage.
 
@@ -173,6 +173,8 @@ This tool has nine buttons, one input field and one output field and their worki
 		The string wiil be something like c, aca,aabbcbbaa, bacab and so on...
 
 9. Provide the grammar in input text field and press SLR Canonical button after doing this, tool will be calculated canonical collection of LR(0) items and construct SLR table.
+
+<b>Attention:-</b> The separater between left and right in Context-Free-Grammar(CFG) is <b>"#"</b> and the epsilan has been represented by <b>"@"</b>.  
 
 <p align="center">
   <img src="Screenshot/111003.png">
